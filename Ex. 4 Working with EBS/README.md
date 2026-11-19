@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: HARISELVAN S
+* **Register Number**: 212224040103
+* **Date of Submission**: 19/11/2026
 
 ---
 
@@ -78,13 +78,12 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Log in to the AWS Management Console, navigate to EC2 Dashboard, and explore the Amazon EBS service and its available volume types.
+2. Create a new EBS volume in the same Availability Zone as the existing EC2 instance by selecting the required size and volume type.
+3. Attach the created EBS volume to the running EC2 instance as an additional block device.
+4. Connect to the EC2 instance using SSH, format the attached volume with a file system (such as ext4), and mount it to a directory (for example, /mnt/ebs).
+5. Create files and store sample data inside the mounted volume, reboot the EC2 instance, and verify that the stored data remains available to confirm persistence.
 
 ---
 
@@ -92,19 +91,22 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ### Screenshot 1: EBS Volume Created
 
-(Insert Screenshot Here)
+<img width="1907" height="962" alt="Screenshot 2026-11-04 135932" src="https://github.com/user-attachments/assets/3e151b8c-9d0b-48ba-af36-a33d5ccc6313" />
+
 
 ---
 
 ### Screenshot 2: EBS Volume Attached to EC2
+<img width="1902" height="976" alt="Screenshot 2026-11-04 141504" src="https://github.com/user-attachments/assets/ed11fa58-bae1-4d40-8731-045a477b8ef1" />
+<img width="1903" height="966" alt="Screenshot 2026-11-04 142306" src="https://github.com/user-attachments/assets/96a2faab-9281-4a84-9bf4-4ba79088a9d6" />
 
-(Insert Screenshot Here)
 
 ---
 
 ### Screenshot 3: Mounted Volume with Data
 
-(Insert Screenshot Here)
+<img width="1907" height="981" alt="Screenshot 2026-11-04 141715" src="https://github.com/user-attachments/assets/bc37d9dd-b8ac-4842-887d-bce746e49318" />
+
 
 ---
 
