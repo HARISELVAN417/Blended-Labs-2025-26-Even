@@ -90,8 +90,6 @@ Students test the setup by generating traffic and observing automatic scaling an
 
 <img width="1907" height="961" alt="Screenshot 2026-11-25 144353" src="https://github.com/user-attachments/assets/08afa9f9-7343-4347-8f5f-c80dc7cd0439" />
 
-
-
 ## Result
 
 This experiment demonstrated how to build a scalable and fault-tolerant cloud architecture using Auto Scaling Groups and Elastic Load Balancing. The system automatically adjusted resources based on workload and ensured continuous service availability by distributing traffic across multiple instances.
